@@ -1,0 +1,14 @@
+{
+  "head": "hybrid",
+  "C": 1.0,
+  "penalty": "l2",
+  "solver": "lbfgs",
+  "text_features": "word",
+  "feature_count": 41141,
+  "converged": true,
+  "iterations": [
+    31
+  ],
+  "train_balanced_accuracy": 0.9328081232492997,
+  "validation_balanced_accuracy": 0.31666666666666665
+}

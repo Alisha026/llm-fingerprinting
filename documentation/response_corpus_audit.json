@@ -1,0 +1,98 @@
+{
+  "source": "https://www.kaggle.com/datasets/olegzholobov/name-that-llm-response-corpus",
+  "audit_date": "2026-10-26",
+  "snapshot_date": "2026-10-15",
+  "verified_files": [
+    "data_dictionary.json",
+    "external_cell_metadata.parquet",
+    "external_cell_provenance.parquet",
+    "external_short_wide.parquet",
+    "source_catalog.csv",
+    "validation.json"
+  ],
+  "wide_rows": 13642,
+  "short_cells": 24025,
+  "unique_response_ids": 24015,
+  "unique_model_normalized_text": 24015,
+  "prompt_groups": 12032,
+  "missing_prompt_text_cells": 0,
+  "official_normalized_overlap_cells": 0,
+  "out_of_range_word_count_cells": 0,
+  "flags_on_short_cells": {
+    "no_train": {
+      "False": 24025
+    },
+    "possible_truncation": {
+      "False": 24025
+    },
+    "possible_reasoning_in_answer": {
+      "False": 24025
+    },
+    "truncation_metadata_missing": {
+      "True": 12336,
+      "False": 11689
+    },
+    "text_shared_across_labels": {
+      "False": 24025
+    },
+    "license_unknown": {
+      "False": 14998,
+      "True": 9027
+    },
+    "output_terms_review": {
+      "False": 13490,
+      "True": 10535
+    }
+  },
+  "model_evidence_on_short_cells": {
+    "row_or_run_metadata": 12727,
+    "request_and_returned_model": 9085,
+    "row_request_model": 1196,
+    "row_teacher_id_observed_models_source_asserted": 316,
+    "row_requested_model": 233,
+    "row_model_id_source_asserted": 194,
+    "platform_response_model_label": 190,
+    "dataset_card": 84
+  },
+  "strict_metadata_candidates": 141,
+  "provenance_occurrences_for_short_cells": 24110,
+  "source_occurrence_counts": {
+    "speechmap": 8658,
+    "eqbench4": 7221,
+    "angrygiraffe/claude-opus-4.6-4.7-reasoning-8.7k": 1934,
+    "zlab-princeton/SWEeper-Bench-traces": 1383,
+    "Crownelius/GPT-5.6-Sol-Luna-Terra-Traces": 1248,
+    "petergpt/bullshit-benchmark": 1205,
+    "glm_flash_analysis": 856,
+    "woog/arena-prose-100-49-models": 427,
+    "greghavens/kimi-k3-coding-and-debugging-traces": 380,
+    "novigens/token-efficiency-benchmark": 233,
+    "artificialanalysis_microevals": 190,
+    "PawanKrd/claude-fable-5-code": 120,
+    "Zek-Takai/glm53-flash-harvest": 84,
+    "copilot_model_value_benchmark": 57,
+    "evaleval/EEE_datastore": 57,
+    "periospot_dental_benchmark": 21,
+    "artindnr/khayyam-challenge": 17,
+    "Met4physics/claude-opus-4-8-xhigh-reasoning-8.7k": 14,
+    "eqbench_creative_writing_longform": 5
+  },
+  "license_status_occurrence_counts": {
+    "repository_license_output_terms_review": 8658,
+    "quarantine_unknown_license": 8139,
+    "source_declaration": 5544,
+    "repo_declared_provider_terms_review": 1205,
+    "repository_license": 233,
+    "unknown_output_license_quarantine": 190,
+    "unspecified": 120,
+    "repository_license_preserved": 21
+  },
+  "limitations": [
+    "Metadata/source declarations are not independent authentication.",
+    "Strict candidates are not approved training data; upstream terms/model IDs still require review.",
+    "No semantic paraphrase or exhaustive substring audit performed.",
+    "Official prompt wording is absent, so prompt-level independence is unresolved.",
+    "No hidden test data was inspected; quarantine Luna collection excluded."
+  ],
+  "training_started": false
+}

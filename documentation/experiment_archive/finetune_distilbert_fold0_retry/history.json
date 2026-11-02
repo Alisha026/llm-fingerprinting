@@ -1,0 +1,72 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 2.8916219166441612,
+    "validation_loss": 2.8702293113425927,
+    "validation_balanced_accuracy": 0.09074074074074075,
+    "learning_rate": 2e-05
+  },
+  {
+    "epoch": 2,
+    "train_loss": 2.7384178513672244,
+    "validation_loss": 2.556052879050926,
+    "validation_balanced_accuracy": 0.17037037037037037,
+    "learning_rate": 1.7777777777777777e-05
+  },
+  {
+    "epoch": 3,
+    "train_loss": 2.420714795230549,
+    "validation_loss": 2.3239601417824076,
+    "validation_balanced_accuracy": 0.20185185185185184,
+    "learning_rate": 1.555555555555556e-05
+  },
+  {
+    "epoch": 4,
+    "train_loss": 2.170653731583334,
+    "validation_loss": 2.198092086226852,
+    "validation_balanced_accuracy": 0.21666666666666665,
+    "learning_rate": 1.3333333333333333e-05
+  },
+  {
+    "epoch": 5,
+    "train_loss": 2.002664174620561,
+    "validation_loss": 2.126569733796296,
+    "validation_balanced_accuracy": 0.2444444444444444,
+    "learning_rate": 1.1111111111111113e-05
+  },
+  {
+    "epoch": 6,
+    "train_loss": 1.8724952687152616,
+    "validation_loss": 2.0538863570601853,
+    "validation_balanced_accuracy": 0.2611111111111111,
+    "learning_rate": 8.888888888888888e-06
+  },
+  {
+    "epoch": 7,
+    "train_loss": 1.755081381605642,
+    "validation_loss": 2.0495243778935186,
+    "validation_balanced_accuracy": 0.2740740740740741,
+    "learning_rate": 6.666666666666667e-06
+  },
+  {
+    "epoch": 8,
+    "train_loss": 1.6665541138456839,
+    "validation_loss": 2.0365650318287036,
+    "validation_balanced_accuracy": 0.2888888888888889,
+    "learning_rate": 4.444444444444444e-06
+  },
+  {
+    "epoch": 9,
+    "train_loss": 1.602682674687568,
+    "validation_loss": 2.0464373553240742,
+    "validation_balanced_accuracy": 0.2962962962962963,
+    "learning_rate": 2.222222222222222e-06
+  },
+  {
+    "epoch": 10,
+    "train_loss": 1.553558278989328,
+    "validation_loss": 2.0616789641203703,
+    "validation_balanced_accuracy": 0.287037037037037,
+    "learning_rate": 0.0
+  }
+]

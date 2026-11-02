@@ -1,0 +1,90 @@
+{
+  "rows": 2160,
+  "columns": [
+    "id",
+    "prompt_id",
+    "text",
+    "model",
+    "label_id",
+    "group_id",
+    "fold"
+  ],
+  "missing_values": {
+    "id": 0,
+    "prompt_id": 0,
+    "text": 0,
+    "model": 0,
+    "label_id": 0,
+    "group_id": 0,
+    "fold": 0
+  },
+  "duplicate_rows": 0,
+  "duplicate_texts": 0,
+  "normalized_duplicate_texts": 0,
+  "duplicate_texts_with_conflicting_labels": 0,
+  "class_counts": {
+    "claude-sonnet-5": 120,
+    "gemini-3.6-flash": 120,
+    "gpt-5.6-terra": 120,
+    "glm-5.3-flash": 120,
+    "gemini-3.1-pro-preview": 120,
+    "claude-opus-4-6": 120,
+    "gpt-5.6-luna": 120,
+    "qwen3.8-max": 120,
+    "gemini-3.8-flash": 120,
+    "claude-opus-4-8": 120,
+    "gemini-3.7-flash": 120,
+    "claude-opus-5": 120,
+    "kimi-k3": 120,
+    "gpt-5.5": 120,
+    "claude-fable-5": 120,
+    "glm-5.3": 120,
+    "gpt-5.6-sol": 120,
+    "gpt-6-astra": 120
+  },
+  "length_summary": {
+    "characters": {
+      "count": 2160.0,
+      "mean": 756.9611111111111,
+      "std": 377.2794134086802,
+      "min": 230.0,
+      "5%": 298.0,
+      "50%": 675.0,
+      "95%": 1472.1499999999992,
+      "max": 1900.0
+    },
+    "words": {
+      "count": 2160.0,
+      "mean": 114.88194444444444,
+      "std": 58.305765144728554,
+      "min": 36.0,
+      "5%": 44.0,
+      "50%": 102.0,
+      "95%": 224.0,
+      "max": 274.0
+    }
+  },
+  "prompt_ids_available": true,
+  "independent_groups": 120,
+  "largest_group": 18,
+  "literal_label_mentions": {
+    "gpt-5.5": 0,
+    "gpt-5.6-luna": 0,
+    "gpt-5.6-sol": 0,
+    "gpt-5.6-terra": 0,
+    "gpt-6-astra": 0,
+    "gemini-3.1-pro-preview": 0,
+    "gemini-3.6-flash": 0,
+    "gemini-3.7-flash": 0,
+    "gemini-3.8-flash": 0,
+    "claude-fable-5": 0,
+    "claude-opus-4-6": 0,
+    "claude-opus-4-8": 0,
+    "claude-opus-5": 0,
+    "claude-sonnet-5": 0,
+    "qwen3.8-max": 0,
+    "glm-5.3": 0,
+    "glm-5.3-flash": 0,
+    "kimi-k3": 0
+  }
+}

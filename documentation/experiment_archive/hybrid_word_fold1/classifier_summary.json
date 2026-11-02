@@ -1,0 +1,12 @@
+{
+  "head": "hybrid",
+  "C": 1.0,
+  "text_features": "word",
+  "feature_count": 41058,
+  "converged": true,
+  "train_balanced_accuracy": 0.9337962962962963,
+  "validation_balanced_accuracy": 0.27777777777777773,
+  "gamma": null,
+  "centroid_shrinkage": null,
+  "ensemble_embedding_weight": null
+}

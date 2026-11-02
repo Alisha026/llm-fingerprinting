@@ -1,0 +1,6 @@
+{
+  "balanced_accuracy": 0.6148148148148148,
+  "plain_balanced_accuracy": 0.5537037037037037,
+  "eligible_centered_rows": 522,
+  "scope": "exploratory prompt-grouped local validation; upstream pool used official-wide style filters; not a Kaggle score"
+}

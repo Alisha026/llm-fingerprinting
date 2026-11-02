@@ -1,0 +1,27 @@
+{
+  "balanced_accuracy": 0.27777777777777773,
+  "per_class_recall": {
+    "gpt-5.5": 0.06666666666666667,
+    "gpt-5.6-luna": 0.2,
+    "gpt-5.6-sol": 0.1,
+    "gpt-5.6-terra": 0.26666666666666666,
+    "gpt-6-astra": 0.43333333333333335,
+    "gemini-3.1-pro-preview": 0.6,
+    "gemini-3.6-flash": 0.2,
+    "gemini-3.7-flash": 0.36666666666666664,
+    "gemini-3.8-flash": 0.23333333333333334,
+    "claude-fable-5": 0.0,
+    "claude-opus-4-6": 0.23333333333333334,
+    "claude-opus-4-8": 0.16666666666666666,
+    "claude-opus-5": 0.7666666666666667,
+    "claude-sonnet-5": 0.26666666666666666,
+    "qwen3.8-max": 0.26666666666666666,
+    "glm-5.3": 0.16666666666666666,
+    "glm-5.3-flash": 0.13333333333333333,
+    "kimi-k3": 0.5333333333333333
+  },
+  "train_rows": 2160,
+  "validation_rows": 539,
+  "fit_and_predict_seconds": 75.7850805236958,
+  "scope": "local validation from supplied CSV; not a leaderboard score"
+}

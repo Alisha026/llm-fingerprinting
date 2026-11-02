@@ -1,0 +1,13 @@
+# Fully pinned transitive dependencies are in requirements.lock.
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+matplotlib==3.10.7
+joblib==1.5.2
+# Optional encoder mode also needs torch and transformers (install separately).
+# The CPU requirements.lock does not include these; each encoder run records
+# the installed versions in config.json. Do not uv pip sync the CPU lock after
+# installing encoder dependencies unless you intend to remove them.
+
+# Offline Kaggle inference/export additionally needs PyArrow (locally tested: pyarrow==25.0.1).
+# Kaggle already supplies a Parquet engine; install this locally for submission tests.

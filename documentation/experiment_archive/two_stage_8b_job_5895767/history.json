@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "public",
+    "epoch": 1,
+    "train_loss_sum_per_sample": 3.3337717648383682,
+    "sample_presentations": 37923,
+    "optimizer_steps": 2107,
+    "elapsed_seconds": 4450.415939291008
+  },
+  {
+    "stage": "official",
+    "epoch": 1,
+    "train_loss_sum_per_sample": 2.870517865816752,
+    "sample_presentations": 2160,
+    "optimizer_steps": 120,
+    "elapsed_seconds": 253.11969702970237
+  },
+  {
+    "stage": "official",
+    "epoch": 2,
+    "train_loss_sum_per_sample": 1.735283127716846,
+    "sample_presentations": 2160,
+    "optimizer_steps": 120,
+    "elapsed_seconds": 253.50383804738522
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "experiment": "tfidf_only_c1",
+  "preprocessing": "none",
+  "head": "tfidf_only",
+  "C": 1.0,
+  "train_balanced_accuracy": 1.0,
+  "validation_balanced_accuracy": 0.27037037037037037,
+  "converged": true,
+  "iterations": 10
+}

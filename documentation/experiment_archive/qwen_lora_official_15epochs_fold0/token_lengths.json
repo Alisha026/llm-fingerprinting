@@ -1,0 +1,10 @@
+{
+  "train": {
+    "max_tokens": 382,
+    "truncated": 0
+  },
+  "validation": {
+    "max_tokens": 331,
+    "truncated": 0
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-02",
+  "status": "completed",
+  "actions": [
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/bundle_manifest.json",
+      "bytes": 1393,
+      "sha256": "bce6b2e726b45f6f3b972a7fa7d7a95ccede2bc7ab1a2a3560a9356c401dc62d",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": null
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/official/adapter/README.md",
+      "bytes": 5192,
+      "sha256": "4348347f8ef605a6b870c6f0e43f57b56bf336b7a4116d2969d3be1d6a5b5004",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": "artifacts/two_stage_8b_job_5895767/official/adapter/README.md"
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/official/adapter/adapter_config.json",
+      "bytes": 1287,
+      "sha256": "a5f324f989d1493592a7c39d2a5c345179df11d41e7609b257d4a2fa01b79bc4",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": "artifacts/two_stage_8b_job_5895767/official/adapter/adapter_config.json"
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/official/adapter/adapter_model.safetensors",
+      "bytes": 116434760,
+      "sha256": "685102427329b6d10c622bb292afbb1692a61837feb6b8247378ad1b841cef8d",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": "artifacts/two_stage_8b_job_5895767/official/adapter/adapter_model.safetensors"
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/official/heads.safetensors",
+      "bytes": 4982480,
+      "sha256": "3c2744449bcfd98edf183052292727d8d7f96b577dbd8543d07d6fdade5c1553",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": "artifacts/two_stage_8b_job_5895767/official/heads.safetensors"
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/official/meta.json",
+      "bytes": 5224,
+      "sha256": "ffb7b571992a7dcbef20f22a1e7fd9f6b1eeb69a637bc966a1366ef9a26338c9",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": "artifacts/two_stage_8b_job_5895767/official/meta.json"
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/official/tokenizer/chat_template.jinja",
+      "bytes": 4116,
+      "sha256": "87a2728cb8dc9fe424d624542f6060ec05a1d285ebbec578bb078900e33396b5",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": "artifacts/two_stage_8b_job_5895767/official/tokenizer/chat_template.jinja"
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/official/tokenizer/tokenizer.json",
+      "bytes": 11422748,
+      "sha256": "b3744d3112b8c3d04760859bfdbf9a7ce00d5539512b5fc5d5bfb3f76eec0d9d",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": "artifacts/two_stage_8b_job_5895767/official/tokenizer/tokenizer.json"
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/official/tokenizer/tokenizer_config.json",
+      "bytes": 722,
+      "sha256": "580ddf5a330e52b5fd6f7f63031385d598a8faab99b4f431765bfb297ba0c7fd",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": "artifacts/two_stage_8b_job_5895767/official/tokenizer/tokenizer_config.json"
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/reference_probabilities.csv",
+      "bytes": 133527,
+      "sha256": "fce4ec59684fb2aa77e90898f9ec25d490256bf358b34d1794f66644e301b413",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": null
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/two_stage_inference.py",
+      "bytes": 9305,
+      "sha256": "984ce982732324373f1cbead36fafb2b83f67581e8265512518dadbce1da88ee",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": null
+    },
+    {
+      "path": "artifacts/kaggle_two_stage_8b/bundle/validation.csv",
+      "bytes": 426376,
+      "sha256": "577bb5491bc242b60e9ce004a503fb522f939035f63a4ef0e16ba8873af442a2",
+      "action": "remove verified duplicate staging file",
+      "retained_archive": "artifacts/kaggle_two_stage_8b/upload/two_stage_8b_bundle.zip",
+      "retained_original": null
+    },
+    {
+      "path": "src/__pycache__/__init__.cpython-310.pyc",
+      "bytes": 205,
+      "sha256": "3e9b9f01c752398863fa41c26e9b5376331a1640e212cefd3201ca02346c9320",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "src/__pycache__/package_two_stage.cpython-310.pyc",
+      "bytes": 4780,
+      "sha256": "97661341cf6de186fec455ac0ed51c52a2acb2a4a105cefb1da38ca1ff34212f",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "src/__pycache__/prepare_external_pilot.cpython-310.pyc",
+      "bytes": 8328,
+      "sha256": "fcc825d9416e1252fa9652c4089f584afe33bd6d168b56595b0cdecad4828e46",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "src/__pycache__/prepare_public_pool.cpython-310.pyc",
+      "bytes": 5077,
+      "sha256": "9df468bbe4f3bdc115dc4c64a5e7dba7215c2c786895b6abdfcb28d593a28e9a",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "src/__pycache__/qwen_experiment.cpython-310.pyc",
+      "bytes": 8962,
+      "sha256": "24b12cf4eaca7d02ca67b88c98c27e54a61cb33b633b09d978cc9fab52e5a8aa",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "src/__pycache__/record_experiments.cpython-310.pyc",
+      "bytes": 3383,
+      "sha256": "cc7c26c67e19bff001532ed0c2c0a2b13fdbe00dda42dcbbaa52bac19725931d",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "src/__pycache__/two_stage_inference.cpython-310.pyc",
+      "bytes": 9361,
+      "sha256": "5ae581cfe816514e9e45e5da0b8161d8a5a7539c0750618f6ff7d047d6616d68",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "src/__pycache__/two_stage_lora.cpython-310.pyc",
+      "bytes": 19115,
+      "sha256": "19a78d284e44b449e3aedce9a317d3752cf076fa7120d2beea4f89e767688711",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "tests/__pycache__/test_full_refit.cpython-310.pyc",
+      "bytes": 2152,
+      "sha256": "4a08bf9a97371f8be7f8141c3111719dc42f789a183ecefa49a44ff03942ab4d",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "tests/__pycache__/test_prepare_public_pool.cpython-310.pyc",
+      "bytes": 2128,
+      "sha256": "412c89727f542035fbd024a1184dec48f212d3eb1b609b91fd6983cf26332028",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "tests/__pycache__/test_two_stage_inference.cpython-310.pyc",
+      "bytes": 2407,
+      "sha256": "342fc7c80a4e52750c927c0ed72d2469aeffed879ea6ee9aecd624aa9038f5ef",
+      "action": "remove regenerable cache"
+    },
+    {
+      "path": "tests/__pycache__/test_two_stage_lora.cpython-310.pyc",
+      "bytes": 2991,
+      "sha256": "ac1bf9d87b8bc402677e133152d0d9c2bc61755e049fd8f3e7b1a499611f4ae3",
+      "action": "remove regenerable cache"
+    }
+  ],
+  "preserved": "All original checkpoints, datasets, environments, predictions, logs, experiment evidence and active training files",
+  "restoration": "Duplicate Kaggle staging files can be extracted from the retained two_stage_8b_bundle.zip; no retraining needed",
+  "bytes_removed": 133496019
+}

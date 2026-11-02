@@ -1,0 +1,10 @@
+{
+  "experiment": "standardize_l2_embedding_c10",
+  "preprocessing": "standardize_l2",
+  "head": "embedding",
+  "C": 10.0,
+  "train_balanced_accuracy": 0.7623366013071897,
+  "validation_balanced_accuracy": 0.17222222222222222,
+  "converged": true,
+  "iterations": 92
+}

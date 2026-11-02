@@ -1,0 +1,6 @@
+{
+  "maximum_probability_difference": 0.03226468169448854,
+  "prediction_agreement": 0.987037037037037,
+  "local_validation_accuracy": 0.6129629629629629,
+  "reference_accuracy": 0.6148148148148148
+}

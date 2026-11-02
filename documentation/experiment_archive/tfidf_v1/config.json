@@ -1,0 +1,70 @@
+{
+  "train": "data/processed/train.csv",
+  "validation": "data/processed/validation.csv",
+  "output": "artifacts/tfidf_v1",
+  "text_column": "text",
+  "label_column": "model",
+  "folds": 5,
+  "validation_fold": 0,
+  "seed": 42,
+  "class_weight": "none",
+  "explore_only": false,
+  "model": "tfidf",
+  "device": "cpu",
+  "encoder": "distilbert/distilbert-base-uncased",
+  "revision": "main",
+  "local_files_only": false,
+  "epochs": 10,
+  "patience": 3,
+  "batch_size": 16,
+  "max_length": 256,
+  "learning_rate": 0.001,
+  "data_sha256": "9ca2d98f2422c3270720ff00b5afe163ea57989824e4766f8473ce64386d5b91",
+  "python": "3.10.12",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "joblib": "1.5.2"
+  },
+  "labels": [
+    "gpt-5.5",
+    "gpt-5.6-luna",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-6-astra",
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash",
+    "gemini-3.7-flash",
+    "gemini-3.8-flash",
+    "claude-fable-5",
+    "claude-opus-4-6",
+    "claude-opus-4-8",
+    "claude-opus-5",
+    "claude-sonnet-5",
+    "qwen3.8-max",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "kimi-k3"
+  ],
+  "feature_settings": {
+    "word_ngrams": [
+      1,
+      2
+    ],
+    "char_ngrams": [
+      3,
+      5
+    ],
+    "word_max_features": 100000,
+    "char_max_features": 150000,
+    "min_df": 2,
+    "sublinear_tf": true,
+    "C": 1.0
+  },
+  "source_sha256": "50aadcf2d40949d15cb83ad50d024cbf0422b385e7b625f7dd545fac5c0e3caf",
+  "split_mode": "supplied CSVs",
+  "validation_sha256": "577bb5491bc242b60e9ce004a503fb522f939035f63a4ef0e16ba8873af442a2",
+  "resolved_device": "cpu"
+}

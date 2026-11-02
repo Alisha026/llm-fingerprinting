@@ -1,0 +1,10 @@
+{
+  "title": "NTL Two Stage 8B Fold0 Checkpoint",
+  "id": "alishasaifi/ntl-two-stage-8b-fold0-checkpoint",
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0"
+    }
+  ],
+  "description": "Private inference checkpoint from job 5895767. Base Qwen3-8B-Base (Apache-2.0). Public training pool credited to nishantdahal/ntl-two-stage-lora and its 14 upstream dataset authors. Local fold-0 exploratory accuracy 0.6148 is not a Kaggle score. No base weights included."
+}

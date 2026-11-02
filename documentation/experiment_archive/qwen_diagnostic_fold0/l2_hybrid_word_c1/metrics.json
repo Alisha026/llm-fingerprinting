@@ -1,0 +1,11 @@
+{
+  "experiment": "l2_hybrid_word_c1",
+  "preprocessing": "l2",
+  "head": "hybrid_word",
+  "C": 1.0,
+  "train_balanced_accuracy": 0.971732026143791,
+  "validation_balanced_accuracy": 0.22592592592592592,
+  "converged": true,
+  "iterations": 32,
+  "reference_max_probability_delta": 1.1108968586692747e-07
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-27",
+  "actions": [
+    {
+      "path": "artifacts/hybrid_word_fold1/encoder/model.safetensors",
+      "action": "replaced identical weight copy with relative symlink",
+      "target": "../../encoder_v1/encoder/model.safetensors",
+      "bytes_removed": 265462608,
+      "sha256": "90295ed56fc68ca98b4d7011d1966e2149226ccb4226ae71b6935a723c665a31"
+    },
+    {
+      "path": "artifacts/full_data_ensemble/frozen_encoder/model.safetensors",
+      "action": "replaced identical weight copy with relative symlink",
+      "target": "../../encoder_v1/encoder/model.safetensors",
+      "bytes_removed": 265462608,
+      "sha256": "90295ed56fc68ca98b4d7011d1966e2149226ccb4226ae71b6935a723c665a31"
+    },
+    {
+      "path": "artifacts/full_data_ensemble_15epochs/frozen_encoder/model.safetensors",
+      "action": "replaced identical weight copy with relative symlink",
+      "target": "../../encoder_v1/encoder/model.safetensors",
+      "bytes_removed": 265462608,
+      "sha256": "90295ed56fc68ca98b4d7011d1966e2149226ccb4226ae71b6935a723c665a31"
+    },
+    {
+      "path": "artifacts/finetune_distilbert_fold0",
+      "action": "removed incomplete run; configuration archived if present",
+      "bytes_removed": 1413
+    },
+    {
+      "path": "artifacts/qwen_embedding_fold0",
+      "action": "removed incomplete run; configuration archived if present",
+      "bytes_removed": 923
+    },
+    {
+      "path": "artifacts/hybrid_512",
+      "action": "removed incomplete run; configuration archived if present",
+      "bytes_removed": 0
+    },
+    {
+      "path": "artifacts/kaggle_upload/llm-fingerprint-fold0.zip",
+      "action": "removed reproducible upload ZIP; recreate with python3 -m src.package_baseline",
+      "bytes_removed": 542181402,
+      "sha256": "667b5d3be0e3360bb4f7ef6ae9d97721b52e751bbd487c83784358aa6a980094"
+    },
+    {
+      "path": "__pycache__",
+      "action": "removed generated Python cache",
+      "bytes_removed": 39550
+    },
+    {
+      "path": "src/__pycache__",
+      "action": "removed generated Python cache",
+      "bytes_removed": 75331
+    },
+    {
+      "path": "tests/__pycache__",
+      "action": "removed generated Python cache",
+      "bytes_removed": 7649
+    }
+  ],
+  "logical_bytes_removed": 1338694092,
+  "preserved": "All unique trained checkpoints, source datasets, prediction/probability files, code, environments and archived experiment evidence."
+}

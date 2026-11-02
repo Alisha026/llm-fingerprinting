@@ -1,0 +1,22 @@
+{
+  "train": {
+    "rows": 2160,
+    "max_tokens": 381,
+    "median_tokens": 134.0,
+    "p95_tokens": 291.0,
+    "above_256": 267,
+    "above_512": 0,
+    "truncated_rows": 0,
+    "truncated_fraction": 0.0
+  },
+  "validation": {
+    "rows": 539,
+    "max_tokens": 352,
+    "median_tokens": 131.0,
+    "p95_tokens": 295.09999999999997,
+    "above_256": 67,
+    "above_512": 0,
+    "truncated_rows": 0,
+    "truncated_fraction": 0.0
+  }
+}

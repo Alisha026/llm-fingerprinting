@@ -1,0 +1,31 @@
+{
+  "balanced_accuracy": 0.3093231162196679,
+  "per_class_recall": {
+    "claude-fable-5": 0.034482758620689655,
+    "claude-opus-4-6": 0.5,
+    "claude-opus-4-8": 0.16666666666666666,
+    "claude-opus-5": 0.7,
+    "claude-sonnet-5": 0.16666666666666666,
+    "gemini-3.1-pro-preview": 0.7333333333333333,
+    "gemini-3.6-flash": 0.16666666666666666,
+    "gemini-3.7-flash": 0.4,
+    "gemini-3.8-flash": 0.3,
+    "glm-5.3": 0.1,
+    "glm-5.3-flash": 0.3,
+    "gpt-5.5": 0.2,
+    "gpt-5.6-luna": 0.23333333333333334,
+    "gpt-5.6-sol": 0.1,
+    "gpt-5.6-terra": 0.26666666666666666,
+    "gpt-6-astra": 0.3333333333333333,
+    "kimi-k3": 0.5,
+    "qwen3.8-max": 0.36666666666666664
+  },
+  "rows": 539,
+  "first_run": "artifacts/finetune_distilbert_fold1",
+  "second_run": "artifacts/hybrid_word_fold1",
+  "first_weight": 0.5,
+  "second_weight": 0.5,
+  "first_balanced_accuracy": 0.2760536398467433,
+  "second_balanced_accuracy": 0.27777777777777773,
+  "scope": "fixed-weight blend on local validation; not a leaderboard score"
+}

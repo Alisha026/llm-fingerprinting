@@ -1,0 +1,11 @@
+{
+  "experiment": "l2_embedding_c1",
+  "preprocessing": "l2",
+  "head": "embedding",
+  "C": 1.0,
+  "train_balanced_accuracy": 0.34127762215997515,
+  "validation_balanced_accuracy": 0.15555555555555556,
+  "converged": true,
+  "iterations": 31,
+  "reference_max_probability_delta": 1.402579387632663e-07
+}

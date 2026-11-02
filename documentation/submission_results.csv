@@ -1,0 +1,4 @@
+date,submission,public_balanced_accuracy,source,status
+2026-10-24,fold0_finetune_hybrid_blend_50_50,0.316,user_reported,scored
+2026-10-24,full_data_finetune_hybrid_blend_50_50,,local_artifacts,trained_no_submission_score_recorded
+2026-11-02,two_stage_8b_fold0_job5895767,0.555,user_reported,scored

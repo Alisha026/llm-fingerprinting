@@ -1,0 +1,19 @@
+{
+  "run": "artifacts/two_stage_8b_job_5895767",
+  "base_repo": "Qwen/Qwen3-8B-Base",
+  "base_revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4",
+  "scope": "Inference only; fold-0 checkpoint; no full-data refit",
+  "sha256": {
+    "official/adapter/README.md": "4348347f8ef605a6b870c6f0e43f57b56bf336b7a4116d2969d3be1d6a5b5004",
+    "official/adapter/adapter_config.json": "a5f324f989d1493592a7c39d2a5c345179df11d41e7609b257d4a2fa01b79bc4",
+    "official/adapter/adapter_model.safetensors": "685102427329b6d10c622bb292afbb1692a61837feb6b8247378ad1b841cef8d",
+    "official/heads.safetensors": "3c2744449bcfd98edf183052292727d8d7f96b577dbd8543d07d6fdade5c1553",
+    "official/meta.json": "ffb7b571992a7dcbef20f22a1e7fd9f6b1eeb69a637bc966a1366ef9a26338c9",
+    "official/tokenizer/chat_template.jinja": "87a2728cb8dc9fe424d624542f6060ec05a1d285ebbec578bb078900e33396b5",
+    "official/tokenizer/tokenizer.json": "b3744d3112b8c3d04760859bfdbf9a7ce00d5539512b5fc5d5bfb3f76eec0d9d",
+    "official/tokenizer/tokenizer_config.json": "580ddf5a330e52b5fd6f7f63031385d598a8faab99b4f431765bfb297ba0c7fd",
+    "reference_probabilities.csv": "fce4ec59684fb2aa77e90898f9ec25d490256bf358b34d1794f66644e301b413",
+    "two_stage_inference.py": "984ce982732324373f1cbead36fafb2b83f67581e8265512518dadbce1da88ee",
+    "validation.csv": "577bb5491bc242b60e9ce004a503fb522f939035f63a4ef0e16ba8873af442a2"
+  }
+}

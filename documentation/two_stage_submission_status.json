@@ -1,0 +1,18 @@
+{
+  "notebook": "alishasaifi/ntl-two-stage-8b-fold0",
+  "version": 1,
+  "dataset": "alishasaifi/ntl-two-stage-8b-fold0-checkpoint",
+  "competition": "name-that-llm",
+  "submitted_at_utc": "2026-11-02 13:18:25.313000",
+  "status": "SCORED_USER_REPORTED",
+  "public_score": 0.555,
+  "previous_public_score": 0.316,
+  "parity": {
+    "maximum_probability_difference": 0.03226468169448854,
+    "prediction_agreement": 0.987037037037037,
+    "local_validation_accuracy": 0.6129629629629629,
+    "reference_accuracy": 0.6148148148148148
+  },
+  "score_source": "user_reported",
+  "score_reported_date": "2026-11-02"
+}

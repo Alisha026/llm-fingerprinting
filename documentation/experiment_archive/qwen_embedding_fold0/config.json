@@ -1,0 +1,30 @@
+{
+  "encoder": "/dss/dsshome1/02/ra48way2/llm-fingerprinting/artifacts/pretrained/qwen3_embedding_06b",
+  "encoder_provenance": {
+    "repo_id": "Qwen/Qwen3-Embedding-0.6B",
+    "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+  },
+  "encoder_config_sha256": "b5bf1f51fc45be473a54718cef92448d90a1be001bf9b9a44b8c7f10a19feaa9",
+  "train_sha256": "9ca2d98f2422c3270720ff00b5afe163ea57989824e4766f8473ce64386d5b91",
+  "validation_sha256": "577bb5491bc242b60e9ce004a503fb522f939035f63a4ef0e16ba8873af442a2",
+  "batch_size": 8,
+  "max_length": 512,
+  "pooling": "last nonpadding token",
+  "normalization": "row L2 only",
+  "instruction": null,
+  "dtype": "torch.bfloat16",
+  "C": 1.0,
+  "seed": 42,
+  "heads": [
+    "embedding",
+    "hybrid_word"
+  ],
+  "status": "running",
+  "packages": {
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "scikit-learn": "1.7.2",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3"
+  }
+}

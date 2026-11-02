@@ -1,0 +1,142 @@
+{
+  "action": "train",
+  "pool": "data/public_pool_v1/pool.parquet",
+  "encoder": "artifacts/pretrained/qwen3_8b_base",
+  "train": "data/processed/train.csv",
+  "validation": "data/processed/validation.csv",
+  "output": "artifacts/two_stage_8b_fold0",
+  "seed": 42,
+  "status": "running",
+  "epochs": 3,
+  "stage_epochs": [
+    1,
+    2
+  ],
+  "keep": 24,
+  "layers": [
+    2,
+    4,
+    6,
+    8,
+    12,
+    16,
+    20,
+    24
+  ],
+  "max_len": 447,
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "microbatch_triplets": 1,
+  "triplets_per_update": 6,
+  "weight_decay": 0.01,
+  "learning_rates": [
+    [
+      0.0001,
+      0.001
+    ],
+    [
+      5e-05,
+      0.0005
+    ]
+  ],
+  "warmup_fraction": 0.1,
+  "centered_log_weight": 0.35,
+  "labels": [
+    "claude-fable-5",
+    "claude-opus-4-6",
+    "claude-opus-4-8",
+    "claude-opus-5",
+    "claude-sonnet-5",
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash",
+    "gemini-3.7-flash",
+    "gemini-3.8-flash",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "gpt-5.5",
+    "gpt-5.6-luna",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-6-astra",
+    "kimi-k3",
+    "qwen3.8-max"
+  ],
+  "packages": {
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "peft": "0.21.0"
+  },
+  "scope": "exploratory prompt-grouped local validation; upstream pool used official-wide style filters; not a Kaggle score",
+  "encoder_provenance": {
+    "repo_id": "Qwen/Qwen3-8B-Base",
+    "revision": "49e3418fbbbca6ecbdf9608b4d22e5a407081db4"
+  },
+  "pool_preparation": {
+    "source_url": "https://www.kaggle.com/datasets/nishantdahal/ntl-two-stage-lora",
+    "license_as_reported_by_kaggle": "CC-BY-SA-4.0",
+    "source_file": "data/external/two_stage_source/pool_v1.parquet",
+    "source_sha256": "a24588c1d78660077d53b93af4829206ac8e6d5362639d0f2dfcb0d5177e425d",
+    "official_file": "data/raw/train.csv",
+    "official_sha256": "40a22ce8d88c5f46feb4637a099db815bef5f713ffe53e89dbe1b7b21de77707",
+    "pool_sha256": "1b6c9704612b94df118a38594c2dffba699dcff8188db7bb809f8190c9bf2a58",
+    "preparation_script_sha256": "6910599a47c16117ff38b68c16c03d5b155bd5a5f9b8ea1c3930a4d8382eb57b",
+    "input_rows": 34940,
+    "output_rows": 34896,
+    "prompt_groups": 2217,
+    "class_counts": {
+      "claude-fable-5": 1505,
+      "claude-opus-4-6": 1673,
+      "claude-opus-4-8": 1688,
+      "claude-opus-5": 1537,
+      "claude-sonnet-5": 1674,
+      "gemini-3.1-pro-preview": 1155,
+      "gemini-3.6-flash": 2534,
+      "gemini-3.7-flash": 1963,
+      "gemini-3.8-flash": 2687,
+      "glm-5.3": 1826,
+      "glm-5.3-flash": 1853,
+      "gpt-5.5": 2401,
+      "gpt-5.6-luna": 2492,
+      "gpt-5.6-sol": 2380,
+      "gpt-5.6-terra": 2444,
+      "gpt-6-astra": 2112,
+      "kimi-k3": 1779,
+      "qwen3.8-max": 1193
+    },
+    "source_counts": {
+      "abdullah": 786,
+      "alperen": 3346,
+      "dophuchung": 935,
+      "hailey": 875,
+      "kaplinskiy": 875,
+      "keshav": 498,
+      "lucasboesen": 871,
+      "lxd": 4276,
+      "prvsiyan": 4257,
+      "prvsiyan_v1": 198,
+      "semenoff": 1876,
+      "seyit": 4826,
+      "willrice": 10246,
+      "ziyuzhou": 1031
+    },
+    "excluded_reasons": {
+      "fewer_than_three_authors": 44
+    },
+    "duplicate_prompt_model_rows_retained": 6506,
+    "official_answer_matches": 0,
+    "excluded_overlap_groups": 0,
+    "limitations": [
+      "Upstream pool was reportedly filtered using class-specific punctuation statistics from all official labeled rows. Local evaluation is exploratory, not strictly untouched validation.",
+      "Official prompt text is unavailable; exact and 5-word shingle exclusions do not prove semantic prompt independence.",
+      "Labels and shared-prompt IDs are publisher supplied; model identities and grouping have not been independently authenticated.",
+      "The supplied pool is already filtered; its upstream filtering cannot be reversed locally.",
+      "Rows from prompts with fewer than three authors are excluded; other repeated prompt/author responses are retained and sampled into distinct-author triplets."
+    ]
+  },
+  "training_script_sha256": "5893b8ee23ca99ba7361c59bb3566d11fd5e2bb5ad5474f0a4ff25aa274c3f38",
+  "limitations": "Upstream filtering used all official rows. External prompt IDs do not establish semantic independence.",
+  "pool_sha256": "1b6c9704612b94df118a38594c2dffba699dcff8188db7bb809f8190c9bf2a58",
+  "train_sha256": "9ca2d98f2422c3270720ff00b5afe163ea57989824e4766f8473ce64386d5b91",
+  "validation_sha256": "577bb5491bc242b60e9ce004a503fb522f939035f63a4ef0e16ba8873af442a2"
+}

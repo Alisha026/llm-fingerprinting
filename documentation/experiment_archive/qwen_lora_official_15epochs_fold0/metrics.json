@@ -1,0 +1,27 @@
+{
+  "balanced_accuracy": 0.2833333333333334,
+  "best_epoch": 9,
+  "validation_loss": 2.2712793420862267,
+  "validation_rows": 540,
+  "per_class_recall": {
+    "claude-fable-5": 0.1,
+    "claude-opus-4-6": 0.3333333333333333,
+    "claude-opus-4-8": 0.3,
+    "claude-opus-5": 0.43333333333333335,
+    "claude-sonnet-5": 0.3,
+    "gemini-3.1-pro-preview": 0.4666666666666667,
+    "gemini-3.6-flash": 0.4,
+    "gemini-3.7-flash": 0.5333333333333333,
+    "gemini-3.8-flash": 0.26666666666666666,
+    "glm-5.3": 0.3,
+    "glm-5.3-flash": 0.13333333333333333,
+    "gpt-5.5": 0.06666666666666667,
+    "gpt-5.6-luna": 0.23333333333333334,
+    "gpt-5.6-sol": 0.23333333333333334,
+    "gpt-5.6-terra": 0.3,
+    "gpt-6-astra": 0.2,
+    "kimi-k3": 0.23333333333333334,
+    "qwen3.8-max": 0.26666666666666666
+  },
+  "scope": "prompt-grouped local validation; not a Kaggle score"
+}

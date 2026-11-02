@@ -1,0 +1,19 @@
+{
+  "id": "alishasaifi/ntl-two-stage-8b-fold0",
+  "title": "NTL Two Stage 8B Fold0",
+  "code_file": "ntl-two-stage-8b-fold0.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [
+    "alishasaifi/ntl-two-stage-8b-fold0-checkpoint"
+  ],
+  "competition_sources": [
+    "name-that-llm"
+  ],
+  "model_sources": [
+    "qwen-lm/qwen-3/Transformers/8b-base/1"
+  ]
+}

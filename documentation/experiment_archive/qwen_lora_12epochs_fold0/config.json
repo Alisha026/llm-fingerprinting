@@ -1,0 +1,57 @@
+{
+  "encoder": "artifacts/pretrained/qwen3_embedding_06b",
+  "train": "data/processed/train.csv",
+  "validation": "data/processed/validation.csv",
+  "output": "artifacts/qwen_lora_12epochs_fold0",
+  "epochs": 12,
+  "patience": 2,
+  "batch_size": 4,
+  "gradient_accumulation": 8,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "rank": 8,
+  "alpha": 16,
+  "dropout": 0.1,
+  "max_length": 512,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "labels": [
+    "claude-fable-5",
+    "claude-opus-4-6",
+    "claude-opus-4-8",
+    "claude-opus-5",
+    "claude-sonnet-5",
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash",
+    "gemini-3.7-flash",
+    "gemini-3.8-flash",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "gpt-5.5",
+    "gpt-5.6-luna",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-6-astra",
+    "kimi-k3",
+    "qwen3.8-max"
+  ],
+  "effective_batch_size": 32,
+  "trainable_parameters": 1165312,
+  "train_sha256": "9ca2d98f2422c3270720ff00b5afe163ea57989824e4766f8473ce64386d5b91",
+  "validation_sha256": "577bb5491bc242b60e9ce004a503fb522f939035f63a4ef0e16ba8873af442a2",
+  "encoder_provenance": {
+    "repo_id": "Qwen/Qwen3-Embedding-0.6B",
+    "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3"
+  },
+  "packages": {
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "peft": "0.21.0",
+    "numpy": "2.2.6",
+    "scikit-learn": "1.7.2"
+  },
+  "status": "complete",
+  "scope": "prompt-grouped local validation; not a Kaggle score"
+}

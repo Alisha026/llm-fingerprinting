@@ -1,0 +1,13 @@
+{
+  "source_run": "artifacts/qwen_embedding_fold0_retry",
+  "C_values": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "seed": 42,
+  "status": "complete",
+  "cache_sha256": "13e65f163de15bf514fdb7abc49d715e307af5bb64c12e50d68bc8b413491861",
+  "scope": "Exploratory validation sweep; confirm selected settings on another fold.",
+  "caveat": "Cache contains L2-normalized vectors. Standardization is applied AFTER original L2 normalization, then L2 again; not raw-vector standardization."
+}
